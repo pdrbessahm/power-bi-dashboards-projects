@@ -8,9 +8,9 @@ The objective of this project was to compare sales performance versus previous y
 
 ## Data Source and Preparations
 
--> Dataset: Superstore Sales from kaggle
--> Cleaned and formatted the dataset using power queries
--> Dax Measures:
+- Dataset: Superstore Sales from kaggle
+- Cleaned and formatted the dataset using power queries
+- Dax Measures:
      - Sales;
      - Profit;
      - % of Returned Products;
@@ -23,15 +23,15 @@ The objective of this project was to compare sales performance versus previous y
 
 ## Dashboard Overview
 
--> KPIs: sales, profit, % of returned products
--> Sales vs PY Over Time
--> Sales by Segment
--> Profit by Product
--> Profit by State
+- KPIs: sales, profit, % of returned products
+- Sales vs PY Over Time
+- Sales by Segment
+- Profit by Product
+- Profit by State
 
 ## Key Measures DAX
 
--> metrics/
+metrics/
   - Percent. Returned Orders =
       - VAR _total_orders = DISTINCTCOUNT( Orders[Order ID] )
       - VAR _returned_orders = DISTINCTCOUNT( Return[Order ID] )
@@ -43,7 +43,7 @@ The objective of this project was to compare sales performance versus previous y
   - Sales =
       - SUM( Orders[Sales] )
 
--> PY measures/
+PY measures/
   - Percent. Returned Orders PY =
       - CALCULATE( [Percent. Returned Orders], SAMEPERIODLASTYEAR(’Date Table’[Date]) )
   - Profit PY =
@@ -51,7 +51,7 @@ The objective of this project was to compare sales performance versus previous y
   - Sales PY =
       - CALCULATE( [Sales], SAMEPERIODLASTYEAR(’Date Table’[Date]) )
 
--> vs PY/
+vs PY/
   - vs PY - Percent. Returned Orders =
       - [Percent. Returned Orders] - [Percent. Returned Orders PY]
   - vs PY - Profit =
@@ -61,11 +61,11 @@ The objective of this project was to compare sales performance versus previous y
 
 ## Insights
 
--> Furnitures are the worst profitable type of product between office supplies and technology;
--> Tables and bookcases are the worst profitable product in the furniture category;
--> California is the most profitable state;
--> Consumer-segment is responsible for leading the sales by segment for over 50% of the cases;
--> Profit was 48,85% higher when compared to the previous year;
--> Sales was 47,16% higher when compared to the previous year;
--> Percentage of returned orders is 2,95% lower when compared to the previous year, meaning that Superstore had a little bit less of loss;
--> Technology is the most profitable product category;
+- Furnitures are the worst profitable type of product between office supplies and technology;
+- Tables and bookcases are the worst profitable product in the furniture category;
+- California is the most profitable state;
+- Consumer-segment is responsible for leading the sales by segment for over 50% of the cases;
+- Profit was 48,85% higher when compared to the previous year;
+- Sales was 47,16% higher when compared to the previous year;
+- Percentage of returned orders is 2,95% lower when compared to the previous year, meaning that Superstore had a little bit less of loss;
+- Technology is the most profitable product category;
