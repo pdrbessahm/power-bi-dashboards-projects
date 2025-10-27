@@ -1,7 +1,6 @@
 # 📊 Power BI Dashboards Projects
 
-Welcome!  
-This repository is dedicated to documenting my **Power BI learning journey** from early study projects to full end-to-end business dashboards. Here, I build, test, and refine visual solutions that combine **data storytelling**, **DAX modeling**, and **dashboard design** to develop real-world analytical skills.
+Welcome! This repository is dedicated to documenting my **Power BI learning journey** from early study projects to full end-to-end business dashboards. Here, I build, test, and refine visual solutions that combine **data storytelling**, **DAX modeling**, and **dashboard design** to develop real-world analytical skills.
 
 ---
 
