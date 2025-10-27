@@ -1,8 +1,7 @@
 # 📊 Power BI Dashboards Projects
 
 Welcome!  
-This repository is dedicated to documenting my **Power BI learning journey** — from early study projects to full end-to-end business dashboards.  
-Here, I build, test, and refine visual solutions that combine **data storytelling**, **DAX modeling**, and **dashboard design** to develop real-world analytical skills.
+This repository is dedicated to documenting my **Power BI learning journey** from early study projects to full end-to-end business dashboards. Here, I build, test, and refine visual solutions that combine **data storytelling**, **DAX modeling**, and **dashboard design** to develop real-world analytical skills.
 
 ---
 
@@ -47,4 +46,4 @@ Follow along as this repository evolves into a complete **Power BI portfolio**.
 
 **Pedro Bessa**  
 📍 Data enthusiast & aspiring data engineer  
-🔗 [LinkedIn](https://linkedin.com/in/pedrobessa)
+🔗 [LinkedIn](https://www.linkedin.com/in/pedro-henrique-bessa-10092003rn/)
